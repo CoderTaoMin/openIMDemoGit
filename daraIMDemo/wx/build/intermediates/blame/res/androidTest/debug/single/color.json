@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "C:\\Users\\Administrator\\AndroidStudioProjects\\daraIMDemo\\wx\\build\\intermediates\\res\\merged\\androidTest\\debug\\color\\aliwx_tab_text_color.xml",
+        "source": "C:\\Users\\Administrator\\AndroidStudioProjects\\daraIMDemo\\wx\\build\\intermediates\\bundles\\debug\\res\\color\\aliwx_tab_text_color.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\AndroidStudioProjects\\daraIMDemo\\wx\\build\\intermediates\\res\\merged\\androidTest\\debug\\color\\aliwx_at_msg_mark_all_read_text_color.xml",
+        "source": "C:\\Users\\Administrator\\AndroidStudioProjects\\daraIMDemo\\wx\\build\\intermediates\\bundles\\debug\\res\\color\\aliwx_at_msg_mark_all_read_text_color.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\AndroidStudioProjects\\daraIMDemo\\wx\\build\\intermediates\\res\\merged\\androidTest\\debug\\color\\aliwx_hongbao_send_text_color.xml",
+        "source": "C:\\Users\\Administrator\\AndroidStudioProjects\\daraIMDemo\\wx\\build\\intermediates\\bundles\\debug\\res\\color\\aliwx_hongbao_send_text_color.xml"
+    }
+]

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#ffffff">
+
+    <ImageView
+        android:id="@+id/iv_order"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/aliww_logo" />
+
+    <LinearLayout
+        android:id="@+id/li_title1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/iv_order"
+        android:layout_marginLeft="8dp"
+        android:layout_toRightOf="@+id/iv_order"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/orderMessage2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="订单编号:" />
+
+        <TextView
+            android:id="@+id/tv_order_num"
+            style="@style/orderMessage3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="124156464564446" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/li_title2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_toRightOf="@+id/iv_order"
+        android:orientation="horizontal"
+        android:layout_below="@+id/li_title1"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            style="@style/orderMessage2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="订单总价:" />
+
+        <TextView
+            android:id="@+id/tv_order_price"
+            style="@style/orderMessage3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="¥454"
+            android:textColor="#ff2742"/>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/li_title3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_toRightOf="@+id/iv_order"
+        android:orientation="horizontal"
+        android:layout_below="@+id/li_title2"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            style="@style/orderMessage2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="下单时间:" />
+
+        <TextView
+            android:id="@+id/tv_order_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2017-05-20 15:15:15"
+            android:textColor="#333333"
+            android:textSize="12sp"
+            android:layout_marginLeft="8dp"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/li_title4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_toRightOf="@+id/iv_order"
+        android:orientation="horizontal"
+        android:layout_below="@+id/li_title3"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            style="@style/orderMessage2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="订单状态:" />
+
+        <TextView
+            android:id="@+id/tv_order_status"
+            style="@style/orderMessage3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="待付款" />
+
+    </LinearLayout>
+</RelativeLayout>
